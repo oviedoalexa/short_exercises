@@ -16,10 +16,10 @@ body {
     background-color: white;
 }
 main {
-    padding: 28px;
+    padding: 20 28 0px;
 }
 footer {
-    border-top: 10px blue;
+    border-top: 10px solid blue;
     text-align: center;
 }
 h1 {
