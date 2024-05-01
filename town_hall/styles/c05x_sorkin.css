@@ -1,3 +1,12 @@
+/*Enhance the style rule for the body so the width is 650 pixels, the body is centered in the browser window, and the body has a double blue border around it like the one above. If you need to make any other changes to the body, do that too.
+Code a style rule for the main element that puts padding around its contents. Then, code a style rule for the footer that puts a blue border above it. Note that this border doesn’t touch the border for the body.
+Code style rules for the h1, h2, and h3 elements. The h1 font should be 150% of the default specified in the body, the h2 font should be 125% of the default font, and the h3 font should be 115% of the default font. The h1 font should also be blue. Then, apply appropriate margins or padding to the h1, h2, and h3 elements so the spacing before and after the headings is similar to what’s shown above.
+Code the style rules for the <p>, blockquote, ul, and li elements so the spacing before and after the elements is similar to what’s shown above.
+Code a style rule for the cite element that changes its color to blue and removes the italics from the text.
+Code a style rule for the paragraphs that contain cite elements. This style rule should right align the paragraphs and increase the spacing below to .75em. One way to do this is to add a class attribute to these paragraphs and use that class as the selector for the style rule.
+Float the image to the left and apply appropriate margins or padding so the text flows to its right, as shown above.
+Apply rules to the footer or the paragraphs within the footer so the font size is 90% of the default, the font weight is bold, the paragraphs are centered, and the spacing above and below is similar to what’s shown above.*/
+
 html {
     background-color: yellow;
 }
