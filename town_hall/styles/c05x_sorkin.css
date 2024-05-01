@@ -19,7 +19,7 @@ main {
     padding: 20 28 0px;
 }
 footer {
-    border-top: 10px solid blue;
+    border-top: 5px solid blue;
     text-align: center;
 }
 h1 {
@@ -31,4 +31,7 @@ h2 {
 }
 h3 {
     font-size: 115%;
+}
+p {
+    padding
 }
