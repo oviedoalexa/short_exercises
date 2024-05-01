@@ -1,5 +1,4 @@
-/*Code style rules for the h1, h2, and h3 elements. The h1 font should be 150% of the default specified in the body, the h2 font should be 125% of the default font, and the h3 font should be 115% of the default font. The h1 font should also be blue. Then, apply appropriate margins or padding to the h1, h2, and h3 elements so the spacing before and after the headings is similar to what’s shown above.
-Code the style rules for the <p>, blockquote, ul, and li elements so the spacing before and after the elements is similar to what’s shown above.
+/*Code the style rules for the <p>, blockquote, ul, and li elements so the spacing before and after the elements is similar to what’s shown above.
 Code a style rule for the cite element that changes its color to blue and removes the italics from the text.
 Code a style rule for the paragraphs that contain cite elements. This style rule should right align the paragraphs and increase the spacing below to .75em. One way to do this is to add a class attribute to these paragraphs and use that class as the selector for the style rule.
 Float the image to the left and apply appropriate margins or padding so the text flows to its right, as shown above.
@@ -21,6 +20,7 @@ main {
 }
 footer {
     border-top: 10px blue;
+    text-align: center;
 }
 h1 {
     font-size: 150%;
