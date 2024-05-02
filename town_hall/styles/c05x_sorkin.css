@@ -1,6 +1,4 @@
-/*Code a style rule for the paragraphs that contain cite elements. This style rule should right align the paragraphs and increase the spacing below to .75em. One way to do this is to add a class attribute to these paragraphs and use that class as the selector for the style rule.
-Float the image to the left and apply appropriate margins or padding so the text flows to its right, as shown above.
-Apply rules to the footer or the paragraphs within the footer so the font size is 90% of the default, the font weight is bold, the paragraphs are centered, and the spacing above and below is similar to what’s shown above.*/
+/*Apply rules to the footer or the paragraphs within the footer so the font size is 90% of the default, the font weight is bold, the paragraphs are centered, and the spacing above and below is similar to what’s shown above.*/
 
 html {
     background-color: yellow;
@@ -22,6 +20,8 @@ footer {
     margin-top: 35px;
     border-top: 4px solid blue;
     text-align: center;
+    font-size: 90%;
+    font-weight: bold;
 }
 h1 {
     font-size: 150%;
@@ -50,4 +50,8 @@ cite {
 }
 .p_cite {
     text-align: right;
+}
+img {
+    float: left;
+    padding: auto;
 }
