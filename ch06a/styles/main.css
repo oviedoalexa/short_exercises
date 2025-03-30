@@ -20,7 +20,7 @@ body {
     font-size: 100%;
     width: 80%;
     margin: auto;
-    border: 5px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
 }
 header, section, aside, footer { padding: 1em; }
 h1, h2, h3, p, article { padding-bottom: .5em; }
