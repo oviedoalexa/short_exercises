@@ -27,15 +27,15 @@ footer {
 h1 {
     font-size: 150%;
     color: rebeccapurple;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
 }
 h2 {
     font-size: 125%;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
 }
 h3 {
     font-size: 115%;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
 }
 
 p, blockquote, ul, li { 
