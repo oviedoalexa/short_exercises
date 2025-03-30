@@ -16,14 +16,27 @@ html {
 }
 
 main {
-
+    /*add padding*/
 }
 
-/*7. Code a style rule for the <footer> element that displays a rebeccapurple border above it.
-8. Code a style rule for the <h1> element. The h1 font should be 150% of the default specified
-in the body, and it’s color should be rebeccapurple.
-9. Code a style rule for the <h2> element. The h2 font should be 125% of the default font.
-10. Code a style rule for the <h3> element. The h3 font should be 115% of the default font.
+footer {
+    border-top: 5px solid rebeccapurple;
+}
+
+h1 {
+    font-size: 150%;
+    color: rebeccapurple;
+}
+h2 {
+    font-size: 125%;
+}
+h3 {
+    font-size: 115%;
+}
+
+
+
+/*
 11. Apply appropriate margins or padding to the <h1>, <h2>, <h3>, <p>, <blockquote>, <ul>,
 and <li> elements.
 12. Code a style rule for the <cite> element that changes its color to rebeccapurple, removes the
@@ -36,4 +49,4 @@ font weight is bold, the paragraphs are centered, and the spacing above and belo
 good.
 15. Code a style rule that creates three custom properties for the colors used by the page. Then,
 modify the color and background-color properties in the style sheet so they use the custom
-property instead of the name of the color./*
+property instead of the name of the color.*/
