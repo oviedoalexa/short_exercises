@@ -9,6 +9,7 @@ body {
     margin: auto;
     background-position: center;
     border: 10px double rebeccapurple;
+    background-color: white;
 }
 
 html {
@@ -22,39 +23,51 @@ main {
 footer {
     border-top: 5px solid rebeccapurple;
     padding-bottom: 5em;
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
 }
 
 h1 {
     font-size: 150%;
     color: rebeccapurple;
-    padding-bottom: 1em;
+    padding: .9em .8em 0;
 }
 h2 {
     font-size: 125%;
-    padding-bottom: 1em;
+    padding: 1em 1em .5em;
 }
 h3 {
     font-size: 115%;
-    padding-bottom: 1em;
+    padding: 1em 1em 0;
 }
 
-p, blockquote, ul, li { 
-    padding-left: .5em; 
+p {
+    padding: .5em 1em 0;
+}
+
+blockquote{
+    padding: 0 1em;
+}
+
+ul {
+    padding: .5em 2.3em 1.5em;
+    
+}
+
+li { 
+    padding: 0 .5em; 
 }
 
 cite {
     color: rebeccapurple;
     font-style: normal;
     font-weight: bold;
+    padding: 0;
 }
 
 img {
     float: left;
+    padding: 1em;
 }
-
-
-
-/*
-13. Float the image to the left and apply appropriate margins or padding so the text floats to its right. Make sure the heading that comes after the image doesn’t float to the right, and that the first paragraph after the image lines up with it at the top.
-14. Code style rules for the paragraphs within the footer so the font size is 90% of the default, the font weight is bold, the paragraphs are centered, and the spacing above and below looks  good.
-15. Code a style rule that creates three custom properties for the colors used by the page. Then, modify the color and background-color properties in the style sheet so they use the custom property instead of the name of the color.*/
