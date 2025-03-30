@@ -6,7 +6,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
+    margin: auto;
     background-position: center;
     border: 5px double rebeccapurple;
 }
@@ -14,3 +14,26 @@ body {
 html {
     background-color: aliceblue;
 }
+
+main {
+
+}
+
+/*7. Code a style rule for the <footer> element that displays a rebeccapurple border above it.
+8. Code a style rule for the <h1> element. The h1 font should be 150% of the default specified
+in the body, and it’s color should be rebeccapurple.
+9. Code a style rule for the <h2> element. The h2 font should be 125% of the default font.
+10. Code a style rule for the <h3> element. The h3 font should be 115% of the default font.
+11. Apply appropriate margins or padding to the <h1>, <h2>, <h3>, <p>, <blockquote>, <ul>,
+and <li> elements.
+12. Code a style rule for the <cite> element that changes its color to rebeccapurple, removes the
+italics from the text, and makes the text bold.
+13. Float the image to the left and apply appropriate margins or padding so the text floats to its
+right. Make sure the heading that comes after the image doesn’t float to the right, and that the
+first paragraph after the image lines up with it at the top.
+14. Code style rules for the paragraphs within the footer so the font size is 90% of the default, the
+font weight is bold, the paragraphs are centered, and the spacing above and below looks
+good.
+15. Code a style rule that creates three custom properties for the colors used by the page. Then,
+modify the color and background-color properties in the style sheet so they use the custom
+property instead of the name of the color./*
