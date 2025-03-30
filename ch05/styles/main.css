@@ -8,7 +8,7 @@ body {
     font-size: 100%;
     margin: auto;
     background-position: center;
-    border: 5px double rebeccapurple;
+    border: 10px double rebeccapurple;
 }
 
 html {
@@ -16,37 +16,45 @@ html {
 }
 
 main {
-    /*add padding*/
+    clear: left
 }
 
 footer {
     border-top: 5px solid rebeccapurple;
+    padding-bottom: 5em;
 }
 
 h1 {
     font-size: 150%;
     color: rebeccapurple;
+    padding-bottom: 5em;
 }
 h2 {
     font-size: 125%;
+    padding-bottom: 5em;
 }
 h3 {
     font-size: 115%;
+    padding-bottom: 5em;
+}
+
+p, blockquote, ul, li { 
+    padding-bottom: .5em; 
+}
+
+cite {
+    color: rebeccapurple;
+    font-style: normal;
+    font-weight: bold;
+}
+
+img {
+    float: left;
 }
 
 
 
 /*
-11. Apply appropriate margins or padding to the <h1>, <h2>, <h3>, <p>, <blockquote>, <ul>,
-and <li> elements.
-12. Code a style rule for the <cite> element that changes its color to rebeccapurple, removes the
-italics from the text, and makes the text bold.
-13. Float the image to the left and apply appropriate margins or padding so the text floats to its
-right. Make sure the heading that comes after the image doesn’t float to the right, and that the
-first paragraph after the image lines up with it at the top.
-14. Code style rules for the paragraphs within the footer so the font size is 90% of the default, the
-font weight is bold, the paragraphs are centered, and the spacing above and below looks
-good.
-15. Code a style rule that creates three custom properties for the colors used by the page. Then,
-modify the color and background-color properties in the style sheet so they use the custom
-property instead of the name of the color.*/
+13. Float the image to the left and apply appropriate margins or padding so the text floats to its right. Make sure the heading that comes after the image doesn’t float to the right, and that the first paragraph after the image lines up with it at the top.
+14. Code style rules for the paragraphs within the footer so the font size is 90% of the default, the font weight is bold, the paragraphs are centered, and the spacing above and below looks  good.
+15. Code a style rule that creates three custom properties for the colors used by the page. Then, modify the color and background-color properties in the style sheet so they use the custom property instead of the name of the color.*/
