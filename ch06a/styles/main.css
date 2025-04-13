@@ -63,12 +63,19 @@ section {
 	& h1 {
 		color: var(--primary-color);
 	}
+	float: right;
+	width: 75%;
 }
 
 /* the styles for the article */
 article {
 	& img {
 		border: 1px solid var(--dark);
+		float: left;
+		width: 100%;
+		max-width: 275px;
+		margin: 0 .7em .5em 0;
+		
 	}
 }
 
@@ -80,6 +87,8 @@ aside {
 	& img {
 		margin-bottom: .9em;
 	}
+	float: left;
+	width: 25%;
 }
 
 /* the styles for the footer */
@@ -90,4 +99,5 @@ footer {
 		color: white;
 		padding-bottom: 0; 
 	}
+	clear: both;
 }
