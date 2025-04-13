@@ -79,6 +79,8 @@ section {
 		font-style: italic;
 		margin-left: 2em;
 	}
+	float: left;
+	width: 65%;
 }
 
 /* the styles for the article */
@@ -103,6 +105,16 @@ aside {
 		margin-bottom: .9em;
 	}
 }
+#left{
+	float: left;
+	flex-basis: 25%;
+}
+
+#right {
+	float: right;
+	flex-basis: 25;
+	width: 175px;
+}
 
 /* the styles for the footer */
 footer {
@@ -112,4 +124,5 @@ footer {
 		color: white;
 		padding-bottom: 0; 
 	}
+	clear: both;
 }
