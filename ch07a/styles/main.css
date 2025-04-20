@@ -121,6 +121,7 @@ nav {
 #nav_list ul li a.current {
 	background-color: var(--accent-color);
 	color: black;
+	font-style: normal;
 }	
 	
 /*
