@@ -102,9 +102,23 @@ footer {
 	}
 }
 
+nav {
+	& ul {
+		background-color: var(--primary-color);
+		list-style: none;
+	}
+	& ul li a {
+		color: white;
+		text-decoration: none;
+		display: block;
+	}
+	& ul li {
+		padding: .75em 1em 0;
+		color: white;
+	}
+}
+
 /*
-2. Modify the HTML so the sidebar doesn’t include the speaker images. Then, use <nav>, <ul>, <li>, and <a> elements to define a navigation menu where each item is the month and name for a speaker.
-3. Add CSS that formats the navigation menu. It should have the same background color as the footer.
 4. The items in the menu should be bold and white, but they should change to the accent color when the mouse hovers over them. Make sure that the entire link area is clickable.
 5. The link for the current page should have black text, and its background color should be the accent color. In addition, the text shouldn’t change color or font style when the mouse hovers over it.
 6. Adjust the formatting as needed so the page looks like the one above.
