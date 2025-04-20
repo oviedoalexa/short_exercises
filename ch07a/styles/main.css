@@ -118,8 +118,12 @@ nav {
 	}
 }
 
+#nav_list ul li a.current {
+	background-color: var(--accent-color);
+	color: black;
+}	
+	
 /*
-4. The items in the menu should be bold and white, but they should change to the accent color when the mouse hovers over them. Make sure that the entire link area is clickable.
 5. The link for the current page should have black text, and its background color should be the accent color. In addition, the text shouldn’t change color or font style when the mouse hovers over it.
 6. Adjust the formatting as needed so the page looks like the one above.
 */
