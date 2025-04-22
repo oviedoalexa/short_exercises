@@ -112,13 +112,22 @@ footer {
 	}
 }
 
+/*
 ul.submenu {
 	list-style-type: down-triangle;
+}
+*/
+
+.navbar ul {
+	list-style-type: none;
+}
+  
+.navbar ul li {
+	display: inline;
 }
 
 /*
 3. Add a nested <ul> element to the <li> element for Speakers and assign it to the submenu class. Add a down triangle symbol to the Speakers item.
-4. Move the speaker items from the aside to the nested Speakers submenu.
 5. Add the CSS for the navbar, menu, and submenu classes that position and format the navigation menu. The menu should have the same background color as the footer, and the menu items should wrap on small screens.
 6. The submenu should be hidden until the mouse hovers over the item that contains it, display directly below the item that contains it, and display on top of the main content.
 7. The links in the menu should be white and normal weight, and use the default hover effect of changing to italic when the mouse hovers over them. Make sure the entire link area is clickable.
