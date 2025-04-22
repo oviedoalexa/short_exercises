@@ -118,21 +118,24 @@ ul.submenu {
 }
 */
 
-.navbar ul {
+#navbar ul {
 	list-style-type: none;
+	position: relative;
 }
   
-.navbar ul li {
+#navbar ul li {
 	display: inline-block;
 	background-color: var(--primary-color);
 	color: white;
-	padding: 1em 2em;
+	/*padding: 1em 2em;*/
 }
 
-.navbar ul li a {
+#navbar ul li a {
 	text-decoration: none;
 	color: white;
 }
+
+
 
 /*
 3. Add a nested <ul> element to the <li> element for Speakers and assign it to the submenu class. Add a down triangle symbol to the Speakers item.
