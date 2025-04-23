@@ -154,6 +154,10 @@ footer {
 	clear: both;
 }
 
+#navbar ul li a.current {
+	color: var(--accent-color);
+}
+
 
 /*
 3. Add a nested <ul> element to the <li> element for Speakers and assign it to the submenu class. Add a down triangle symbol to the Speakers item.
