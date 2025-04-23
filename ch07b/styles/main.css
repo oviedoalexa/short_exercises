@@ -112,11 +112,7 @@ footer {
 	}
 }
 
-/*
-ul.submenu {
-	list-style-type: down-triangle;
-}
-*/
+
 
 #navbar ul {
 	list-style-type: none;
@@ -128,12 +124,14 @@ ul.submenu {
 	float: left;
 	background-color: var(--primary-color);
 	color: white;
-	/*padding: 1em 2em;*/
 }
 
 #navbar ul li a {
 	text-decoration: none;
 	color: white;
+	text-align: center;
+	display: block;
+	width: 250px;
 }
 
 #navbar ul ul {
@@ -147,7 +145,13 @@ ul.submenu {
 }
 
 #navbar ul li:hover > ul {
+	display: block;
+}
+
+#navbar ul li::after {
+	content: "";
 	display: block; 
+	clear: both;
 }
 
 
